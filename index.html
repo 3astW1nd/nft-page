@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+      <img src="./images/image-equilibrium.jpg" alt="image of nft" style="width: 100%; border-radius: 10px;"/>
+
+      <div style="position: absolute; top: 11%; border-radius: 10px;
+      width: 270px; height: 270px; justify-content: center; display: flex;
+      align-items: center;" class="coinImage" >
+        <img src="./images/icon-view.svg" alt="image of nft" style="width: 36px; border-radius: 10px;"/>
+      </div>
+
+      <div class="titleClass">
+        Equilibrium #3429
+      </div>
+
+      <p>
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <div class="priceAndTime">
+        <div class="priceClass">
+          <img src="./images/icon-ethereum.svg" alt="ethereum icon" style="height: 80%;" />
+
+          0.041 ETH
+
+        </div>
+
+        <div class="timeClass">
+          <img src="./images/icon-clock.svg" alt="clock icon" />
+
+          3 days left
+
+        </div>
+
+      </div>
+
+      <div class="userClass">
+        <img src="./images/image-avatar.png" alt="profile image" style="width: 10%;" />
+        <span style="font-weight: 100; color: white;">Creation of</span>Jules Wyvern
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Dilawar</a>.
+    </div>
+  </footer>
+</body>
+
+</html>

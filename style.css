@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "outfit";
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}
+
+hmtl, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "outfit";
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* width 100% and height 100vh makes the container div span the length of the back ground div */
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 470px;
+    width: 270px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.titleClass {
+    color: white;
+    margin: 1rem 0rem;
+    font-weight: bold;
+    font-size: 22px
+}
+
+.titleClass:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 1rem 0rem;
+}
+
+.priceAndTime {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 0.5rem;   
+}
+
+.priceClass {
+    color: hsl(178, 100%, 50%);
+}
+
+.priceClass, .timeClass {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.userClass {
+    color: white;
+    border-top: 1px solid rgba(47, 65, 91, 0.5);
+    margin: 0.5rem 0rem;
+    padding: 1rem 0rem;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.userClass:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.coinImage {
+    background-color: rgba(0, 255, 247, 0); 
+}
+
+.coinImage:hover {
+    background-color: rgba(0, 255, 247, 0.5); 
+}
+  
+.coinImage > img {
+    visibility: hidden;
+}
+  
+.coinImage:hover > img {
+    visibility: visible; 
+}
+
+
+
+
+
+
